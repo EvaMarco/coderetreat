@@ -1,2 +1,8 @@
-// Enjoy arrow functions
-export default () => 'Hello World!';
+export default () => {
+  const board = [
+    [0, 0, 0],
+    [0, 0, 0],
+    [0, 0, 0]
+  ]
+  return false
+};
