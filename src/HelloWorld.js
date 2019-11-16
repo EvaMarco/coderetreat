@@ -1,7 +1,9 @@
-export default (value) => {
-  const board = [
-    [value, value, value],
-    [value, value, value],[value, value, value]
-  ]
+export default (board) => {
+if(board[1][1]){
+  return(false)
+}
+else{
+
   return board
+}
 };
